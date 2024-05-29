@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="A practicing project called Fylo landing page from Frontend Mentor Challenges" />
+    <meta name="author" content="Steven Huang" />
+    <meta name="keywords" content="HTML, CSS" />
+    <!-- displays site properly based on user's device -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Frontend Mentor | Fylo landing page with two column layout</title>
+  </head>
+  <body>
+    <header class="header">
+      <figure class="header__logo">
+        <img src="./images/logo.svg" alt="Fylo App Logo" />
+      </figure>
+
+      <nav class="nav">
+        <ul class="nav__lists">
+          <li class="nav__list-item">
+            <a class="nav__link" role="button" href="#">Features</a>
+          </li>
+          <li class="nav__list-item">
+            <a class="nav__link" role="button" href="#">Team</a>
+          </li>
+          <li class="nav__list-item">
+            <a class="nav__link" role="button" href="#">Sign In</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="heading hero__heading">
+          <h1 class="heading__primary">All your files in one secure location, accessible anywhere.</h1>
+          <p class="heading__text">
+            Fylo stores your most important files in one secure location. Access them wherever you need, share and
+            collaborate with friends, family, and co-workers.
+          </p>
+
+          <div class="hero__form-content">
+            <form class="form hero__form">
+              <input class="form__input hero__form-input" type="email" placeholder="Enter your email..." id="email" />
+              <label class="form__label hero__form-label" for="email">Please check your email</label>
+            </form>
+
+            <a href="#" class="cta hero__cta">Get Started</a>
+          </div>
+        </div>
+
+        <figure class="hero__img">
+          <img src="./images/illustration-1.svg" alt="Illustration that workers take files in one big folder." />
+        </figure>
+      </section>
+
+      <section class="feature">
+        <div class="curve">&nbsp;</div>
+
+        <div class="heading feature__heading">
+          <h2 class="heading__secondary">Stay productive, wherever you are</h2>
+
+          <div>
+            <p class="heading__text">
+              Never let location be an issue when accessing your files. Fylo has you covered for all of your file
+              storage needs.
+            </p>
+            <p class="heading__text">
+              Securely share files and folders with friends, family and colleagues for live collaboration. No email
+              attachments required!
+            </p>
+          </div>
+
+          <a class="feature__link" href="#"
+            >See how Fylo works
+            <img src="./images/icon-arrow.svg" alt="Right arrow as a link to the another page" />
+          </a>
+
+          <blockquote class="testimonial">
+            <div class="testimonial__icon--quote">
+              <img src="./images/icon-quotes.svg" alt="Icon quote" />
+            </div>
+
+            <p class="testimonial__text">
+              Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has
+              become a well-oiled collaboration machine.
+            </p>
+
+            <div class="testimonial__profile">
+              <div class="testimonial__img">
+                <img src="./images/avatar-testimonial.jpg" alt="Testimonial Kyle Burton avatar" />
+              </div>
+
+              <div class="testimonial__detail">
+                <div class="testimonial__name">Kyle Burton</div>
+                <div class="testimonial__job">Founder & CEO, Huddle</div>
+              </div>
+            </div>
+          </blockquote>
+        </div>
+
+        <figure class="feature__img">
+          <img src="./images/illustration-2.svg" alt="Illustration that workers work at different places." />
+        </figure>
+      </section>
+
+      <section class="access">
+        <div class="heading access__heading">
+          <h2 class="heading__secondary">Get early access today</h2>
+          <p class="heading__text">
+            It only takes a minute to sign up and our free starter tier is extremely generous. If you have any
+            questions, our support team would be happy to help you.
+          </p>
+        </div>
+
+        <div class="access__form-content">
+          <div class="form access__form">
+            <input
+              type="email"
+              class="form__input access__form-input"
+              placeholder="example@fylo.com"
+              id="email-access"
+            />
+            <label for="email-access" class="form__label access__form-label">Please check your email</label>
+          </div>
+          <a href="#" class="cta access__cta">Get Started For Free</a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="footer__logo">
+        <img src="./images/logo.svg" alt="Fylo app logo" />
+      </div>
+
+      <div class="footer__content">
+        <address class="footer__info">
+          <div class="footer__info--tel">
+            <img src="./images/icon-phone.svg" alt="Phone icon" />
+            Phone: +1-543-123-4567
+          </div>
+          <div class="footer__info--email">
+            <img src="./images/icon-email.svg" alt="Email icon" />
+            example@fylo.com
+          </div>
+        </address>
+
+        <div class="footer__details">
+          <a class="footer__link" href="#">About Us</a>
+          <a class="footer__link" href="#">Jobs</a>
+          <a class="footer__link" href="#">Press</a>
+          <a class="footer__link" href="#">Blog</a>
+        </div>
+
+        <div class="footer__contact">
+          <a class="footer__link" href="#">Contact Us</a>
+          <a class="footer__link" href="#">Terms</a>
+          <a class="footer__link" href="#">Privacy</a>
+        </div>
+
+        <div class="social__links">
+          <a class="social-link" href="#">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
+              <!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+              <path
+                d="M80 299.3V512H196V299.3h86.5l18-97.8H196V166.9c0-51.7 20.3-71.5 72.7-71.5c16.3 0 29.4 .4 37 1.2V7.9C291.4 4 256.4 0 236.2 0C129.3 0 80 50.5 80 159.4v42.1H14v97.8H80z"
+              />
+            </svg>
+          </a>
+
+          <a class="social-link" href="#">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+              <!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+              <path
+                d="M459.4 151.7c.3 4.5 .3 9.1 .3 13.6 0 138.7-105.6 298.6-298.6 298.6-59.5 0-114.7-17.2-161.1-47.1 8.4 1 16.6 1.3 25.3 1.3 49.1 0 94.2-16.6 130.3-44.8-46.1-1-84.8-31.2-98.1-72.8 6.5 1 13 1.6 19.8 1.6 9.4 0 18.8-1.3 27.6-3.6-48.1-9.7-84.1-52-84.1-103v-1.3c14 7.8 30.2 12.7 47.4 13.3-28.3-18.8-46.8-51-46.8-87.4 0-19.5 5.2-37.4 14.3-53 51.7 63.7 129.3 105.3 216.4 109.8-1.6-7.8-2.6-15.9-2.6-24 0-57.8 46.8-104.9 104.9-104.9 30.2 0 57.5 12.7 76.7 33.1 23.7-4.5 46.5-13.3 66.6-25.3-7.8 24.4-24.4 44.8-46.1 57.8 21.1-2.3 41.6-8.1 60.4-16.2-14.3 20.8-32.2 39.3-52.6 54.3z"
+              />
+            </svg>
+          </a>
+          <a class="social-link" href="#">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+              <!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+              <path
+                d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"
+              />
+            </svg>
+          </a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
